@@ -1,0 +1,173 @@
+@font-face {
+    font-family:Repro;
+    src: url(ABCRepro-Screen-Trial.woff2);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Repro;
+}
+.title{
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+.home, .mytypeface, .harmonic, .audience, .cakes{
+    display: flex;
+    height: 500px;
+}
+.leftpart{
+    width: 36%;
+    margin-left: 24px;
+}
+.leftwork{
+    width: 45%;
+    margin-left: 24px;
+    margin-right: 12px;
+}
+.rightwork{
+    width: 45%;
+    margin-left: 12px;
+    margin-right: 1%;
+}
+.projectname{
+    font-size: x-large;
+}
+.subname{
+    font-size: larger;
+}
+.tags{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: small;
+}
+.tag{
+    padding: 1px 7px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+}
+.tag1{
+    padding: 1px 7px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border-color: rgb(174, 0, 255);
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(174, 0, 255);
+}
+.tag2{
+    padding: 1px 7px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border-color: rgb(0, 115, 255);
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(0, 115, 255);
+}
+.tag3{
+    padding: 1px 7px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border-color: rgb(252, 113, 0);
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(252, 113, 0);
+}
+.tag4{
+    padding: 1px 7px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border-color: rgb(252, 0, 223);
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(252, 0, 223);
+}
+.tag5{
+    padding: 1px 7px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border-color: rgb(0, 172, 252);
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(0, 172, 252);
+}
+.tag6{
+    padding: 1px 7px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border-color: rgb(0, 252, 155);
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(0, 252, 155);
+}
+.brief{
+    font-size: large;
+}
+.link{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.details{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 40px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.workpiece{
+    position: absolute;
+    right: 1%;
+    width: 660px;
+    height: 400px;
+    object-fit: cover;
+}
+.workpiece2{
+    position: absolute;
+    right: 1%;
+    width: 660px;
+    height: 400px;
+    object-fit: cover;
+}
+.workpiece4{
+    position: absolute;
+    right: 1%;
+    width: 660px;
+    height: 400px;
+    object-fit: cover;
+}
+.workpiece3{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.practise1{
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.practice{
+    width: 30%;
+}
+.practicepiece{
+    width: 410px;
+    height: 250px;
+    object-fit: cover;
+}
+.practicelink{
+    text-decoration: none;
+    color: black;
+}
